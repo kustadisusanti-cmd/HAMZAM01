@@ -4,6 +4,8 @@ android {
     namespace 'com.hamzam.app'
     compileSdk 35
 
+    buildFeatures { buildConfig true }
+
     defaultConfig {
         applicationId 'com.hamzam.app'
         minSdk 24
