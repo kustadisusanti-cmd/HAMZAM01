@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: hamzam01
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: HAMZAM_MIN_SCORE
+        value: "70"
+      - key: HAMZAM_RISK_PCT
+        value: "1"
