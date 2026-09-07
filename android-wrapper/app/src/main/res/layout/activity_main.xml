@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="20dp" android:background="#070B12" android:layout_width="match_parent" android:layout_height="match_parent">
+ <TextView android:text="HAMZAM AI" android:textColor="#EEF4FF" android:textSize="30sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+ <TextView android:text="Market Structure Analyst" android:textColor="#9EACC2" android:textSize="14sp" android:layout_marginTop="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+ <TextView android:text="Masukkan URL Web App HAMZAM satu kali. Setelah tersimpan, tombol BUKA HAMZAM akan menjalankan aplikasi." android:textColor="#CBD6E8" android:textSize="14sp" android:layout_marginTop="24dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+ <EditText android:id="@+id/url" android:hint="https://script.google.com/macros/s/.../exec" android:textColor="#EEF4FF" android:hintTextColor="#607089" android:singleLine="true" android:inputType="textUri" android:background="#101827" android:padding="14dp" android:layout_marginTop="14dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+ <Button android:id="@+id/save" android:text="SIMPAN URL" android:layout_marginTop="12dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+ <Button android:id="@+id/open" android:text="BUKA HAMZAM" android:layout_marginTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+ <TextView android:id="@+id/status" android:textColor="#9EACC2" android:textSize="12sp" android:layout_marginTop="12dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
